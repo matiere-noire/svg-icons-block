@@ -1,0 +1,13 @@
+{
+    "name": "matiere-noire/block-icon-svg",
+    "description": "Block icon SVG",
+    "type": "wordpress-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matiere Noire",
+            "email": "developer@matierenoire.io"
+        }
+    ],
+    "require": {}
+}
