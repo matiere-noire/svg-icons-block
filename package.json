@@ -1,0 +1,33 @@
+{
+  "name": "matiere-noire-block-svg",
+  "version": "1.0.0",
+  "description": "Block icon SVG",
+  "main": "index.js",
+  "author": "Matière Noire",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@wordpress/scripts": "^7.1.0",
+    "css-loader": "^3.4.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "svg-spritemap-webpack-plugin": "^3.5.3"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format:js": "wp-scripts format-js",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:md:js": "wp-scripts lint-md-js",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start",
+    "test:e2e": "wp-scripts test-e2e",
+    "test:unit": "wp-scripts test-unit-js"
+  }
+}

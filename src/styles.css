@@ -1,0 +1,9 @@
+.wp-block-matiere-noire-svg-icons {
+  fill: currentColor;
+  box-sizing: content-box;
+}
+
+.wp-block-matiere-noire-svg-icons.has-background{
+  padding: 1.5em;
+  border-radius: 4em;
+}
