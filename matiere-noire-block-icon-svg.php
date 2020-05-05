@@ -7,7 +7,7 @@
  * Plugin Name:       Matiere Noire SVG icons block
  * Plugin URI:        https://github.com/matiere-noire/svg-icons-block
  * Description:       Ajout d'un block Icon SVG
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            Matiere Noire
  * Author URI:        https://www.matierenoire.io/
  * License:           MIT
@@ -83,6 +83,7 @@ function allowed_html($allowedposttags, $context)
             'focusable' => true,
             'width'     => true,
             'height'    => true,
+            'style'    => true,
         ];
         $allowedposttags['path'] = [
             'd'     => true,
